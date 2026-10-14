@@ -16,9 +16,9 @@ from bs4 import BeautifulSoup
 # "Europe", "NA West", "NA East", "SA", "Asia"
 SERVER_NAME = os.environ["AION_SERVER"]
 REGION = os.environ["AION_REGION"]
-NOTIFY_ON_CHANGE = False    # True = also post a short new message on each change
+NOTIFY_ON_CHANGE = True    # True = also post a short new message on each change
                             # (edits to the embed don't notify anyone)
-NOTIFICATION_EXPIRY_HOURS = 6   # delete a notification after this many hours
+NOTIFICATION_EXPIRY_HOURS = 1   # delete a notification after this many hours
                                 # (0 = keep until the next change replaces it)
 # ---------------------------------------------------------------------------
 
